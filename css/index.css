@@ -1,0 +1,238 @@
+html,body,div,p,form,ul,li,ol,dl,dt,dd,table,tr,td,th,hr,h1,h2,h3,h4,h5,h6,img,input{
+	margin:0;
+	padding:0;
+}
+body{
+	font-family:"微软雅黑",Arial;
+}
+a{
+	text-decoration:none;
+}
+ul,li{
+	list-style:none;
+}
+img{
+	border:none;
+	display: block;
+}
+
+/*header*/
+header{
+	width:100%;
+	height: auto;
+}
+.headerTop{
+	width: 1200px;
+	height: 130px;
+	background-color: white;
+	font-size: 12px;
+	color: black;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+.topLeft{
+	width: 33%;
+	float: left;
+	height: 88px;
+	padding-top: 20px;
+}
+.topLeft img{
+	display: block;
+	width: 88px;
+	height: 88px;
+	margin-right: 7px;
+	float: left;
+}
+.topLeft h3{
+	font-weight: 400;
+	font-size: 18px;
+	/*float: left;*/
+	margin-bottom: 6px;
+}
+
+.topCenter{
+	width: 34%;
+	float: left;
+}
+.topCenter a{
+	display: block;
+	display: flex;
+	justify-content: center;
+	padding-top: 18px;
+}
+.topRight{
+	width: 33%;
+	float: left;
+	text-align: right;
+	display: flex;
+	flex-direction: column;
+}
+
+.rightTop{
+	padding-top: 18px;
+	height: 14px;
+	line-height: 14px;
+	display: flex;
+	justify-content: flex-end;
+}
+.rightTop span{
+	margin-left: 28px;
+	text-align: right;
+	float: left;
+}
+.rightTop a{
+	display: inline-block;
+	color: black;
+	font-size: 12px;
+}
+.highSpan a:first-child{
+	color: #f8a120;
+}
+.rightTop a:hover,{
+	color: #f8a120;
+}
+.rightBottom{
+	display: flex;
+	justify-content: flex-end;
+	padding-top: 40px;
+}
+.rightBottom a{
+	display: block;
+	height: 20px;
+	line-height: 20px;
+	background: url("../img/shopCar.png") no-repeat;
+	background-position: 18px 0;
+	color: black;
+	font-size: 14px;
+}
+.rightBottom a:hover{
+	color: #f8a120;
+}
+.rightBottom p{
+	float: left;
+	margin-left: 40px;
+}
+.rightBottom span{
+	color: #f8a120;
+	float: right;
+}
+/*nav*/
+nav{
+	width: 100%;
+	height: 44px;
+	background-color: #1a191e;
+}
+.navBlack{
+	width: 1200px;
+	height: 44px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+.ulNav{
+	width: auto;
+	height: 44px;
+	font-size: 14px;
+}
+.ulSelect{
+	display: flex;
+}
+.ulSelect li{
+	display: flex;
+	padding-right: 42px;
+	height: 44px;
+	line-height: 44px;
+}
+.ulSelect li a{
+	display: block;
+	display: flex;
+	color: white;
+}
+.ulSelect li a:hover{
+	color: #f8a120;
+}
+.ulSelect li:first-child a{
+	color: #f8a120;
+}
+.inputNav{
+	width: 230px;
+	height: 44px;
+	margin-right: 3px;
+	display: flex;
+	position: relative;
+}
+.inputNav input{
+	width: 164px;
+	height: 24px;
+	line-height: 24px;
+	padding: 7px 50px 7px 10px;
+	border: 0;
+	outline: none;
+	margin-top: 3px;
+	font-size: 14px;
+}
+.inputNav a{
+	display: block;
+	width: 38px;
+	height: 38px;
+	background: url("../img/search.png") center center no-repeat white;
+    position: absolute;
+    right: 6px;
+    top: 3px;
+}
+
+/*section*/
+.sliderDiv{
+	width: 1200px;
+	height: 523px;
+	margin: 0 auto;
+	margin-top: 20px;
+	background-color: pink;
+	margin-bottom: 97px;
+}
+
+/*section*/
+.bigImgBox{
+	margin: 0 auto;
+	width: 100%;
+	height: auto;
+}
+.bigBox{
+	margin: 0 auto;
+	/*margin-left: 30px;*/
+	font-size: 16px;
+	width: 1300px;
+	background: red;
+}
+.bigBox::after{
+	clear: both;
+	height: 0;
+	overflow: hidden;
+	content: "";
+	display: block;
+	visibility: hidden;
+}
+.ImgLink{
+	display: block;
+	float: left;
+	width: 590px;
+	height: 450px;
+	margin-right: 20px;
+}
+.bigImg{
+	height: 330px;
+}
+.bigImg img{
+	width: 100%;
+	height: 100%;
+}
+.ImgLink h3{
+	margin:20px 0 12px;
+	font-size: 26px;
+	color: black;
+}
+.ImgLink p{
+	color: black;
+	font-size: 16px;
+}
