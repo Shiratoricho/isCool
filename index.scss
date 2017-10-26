@@ -1,0 +1,308 @@
+@import "public";
+
+/*header*/
+header{
+	width:100%;
+	height: auto;
+}
+.headerTop{
+	width: 1200px;
+	height: 130px;
+	background-color: white;
+	font-size: 12px;
+	color: black;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+.topLeft{
+	width: 33%;
+	float: left;
+	height: 88px;
+	padding-top: 20px;
+}
+.topLeft img{
+	display: block;
+	width: 88px;
+	height: 88px;
+	margin-right: 7px;
+	float: left;
+}
+.topLeft h3{
+	font-weight: 400;
+	font-size: 18px;
+	/*float: left;*/
+	margin-bottom: 6px;
+}
+
+.topCenter{
+	width: 34%;
+	float: left;
+}
+.topCenter a{
+	display: block;
+	display: flex;
+	justify-content: center;
+	padding-top: 18px;
+}
+.topRight{
+	width: 33%;
+	float: left;
+	text-align: right;
+	display: flex;
+	flex-direction: column;
+}
+
+.rightTop{
+	padding-top: 18px;
+	height: 14px;
+	line-height: 14px;
+	display: flex;
+	justify-content: flex-end;
+	span{
+		margin-left: 28px;
+		text-align: right;
+		float: left;
+	}
+}
+.highSpan a:first-child{
+	color: #f8a120;
+}
+.rightTop a{
+	display: inline-block;
+	color: black;
+	font-size: 12px;
+	&:hover{
+		color: #f8a120;
+	}
+}
+.rightBottom{
+	display: flex;
+	justify-content: flex-end;
+	padding-top: 40px;
+}
+.rightBottom a{
+	display: block;
+	height: 20px;
+	line-height: 20px;
+	background: url("../img/shopCar.png") no-repeat;
+	background-position: 18px 0;
+	color: black;
+	font-size: 14px;
+	&:hover{
+	    p{
+		  color: #f8a120;
+	   }
+	}
+}
+.rightBottom p{
+	float: left;
+	margin-left: 40px;
+}
+.rightBottom span{
+	color: #f8a120;
+	float: right;
+}
+/*nav*/
+nav{
+	width: 100%;
+	height: 44px;
+	background-color: #1a191e;
+}
+.navBlack{
+	width: 1200px;
+	height: 44px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+.ulNav{
+	width: auto;
+	height: 44px;
+	font-size: 14px;
+}
+.ulSelect{
+	display: flex;
+}
+.ulSelect li{
+	display: flex;
+	padding-right: 42px;
+	height: 44px;
+	line-height: 44px;
+}
+.ulSelect li a{
+	display: block;
+	display: flex;
+	color: white;
+}
+.ulSelect li a:hover{
+	color: #f8a120;
+}
+.ulSelect li:first-child a{
+	color: #f8a120;
+}
+.inputNav{
+	width: 230px;
+	height: 44px;
+	margin-right: 3px;
+	display: flex;
+	position: relative;
+}
+.inputNav input{
+	width: 164px;
+	height: 24px;
+	line-height: 24px;
+	padding: 7px 50px 7px 10px;
+	border: 0;
+	outline: none;
+	margin-top: 3px;
+	font-size: 14px;
+}
+.inputNav a{
+	display: block;
+	width: 38px;
+	height: 38px;
+	background: url("../img/search.png") center center no-repeat white;
+    position: absolute;
+    right: 6px;
+    top: 3px;
+}
+
+/*sectionSlider*/
+.sliderDiv{
+	width: 1200px;
+	height: 523px;
+	margin: 0 auto;
+	margin-top: 20px;
+	background-color: pink;
+}
+
+/*sectionBigImg*/
+.bigImgBox{
+	margin: 0 auto;
+	width: 1200px;
+	height: auto;
+}
+.bigBox{
+	margin-top: 97px;
+	font-size: 16px;
+	width: 1300px;
+}
+.bigBox::after{
+	clear: both;
+	height: 0;
+	overflow: hidden;
+	content: "";
+	display: block;
+	visibility: hidden;
+}
+.ImgLink{
+	display: block;
+	float: left;
+	width: 590px;
+	height: 450px;
+	margin-right: 20px;
+}
+.bigImg{
+	height: 330px;
+}
+.bigImg img{
+	width: 100%;
+	height: 100%;
+}
+.ImgLink h3{
+	margin:20px 0 12px;
+	font-size: 26px;
+	color: black;
+}
+.ImgLink p{
+	color: black;
+	font-size: 16px;
+}
+
+/*sliderLike*/
+.sliderLike{
+    margin: 0 auto;
+    width: 1200px;
+}
+.guessLike{
+    margin: 74px auto 104px;
+    border-top: 1px solid #f8a120;
+    position: relative;
+    span{
+        width: 160px;
+        height: 26px;
+        line-height: 26px;
+        font-size: 26px;
+        text-align: center;
+        position: absolute;
+        top: 0;
+        left: 50%;
+        background-color: white;
+        margin: -14px 0 0 -70px;
+    }
+}
+.guessImg{
+    background: lightpink;
+}
+
+/*footer*/
+footer{
+    margin-top: 70px;
+    padding: 37px 0 66px;
+    background-color: #f5f5f5;
+}
+.footerLink{
+    width: 1200px;
+    margin:0 auto; 
+    overflow: hidden;
+}
+.friendLink{
+    font-size: 14px;
+    overflow: hidden;
+}
+.linkMore{
+    width: 236px;
+    height: auto;
+    float: left;
+    li{
+        height: 34px;
+        a{
+            color: inherit;
+            &:hover{
+                color: #f8a120;
+            }
+        }
+    }
+}
+.cardNumber{
+    margin-top: 25px;
+    line-height: 36px;
+    font-size: 14px;
+}
+.cardNumber span{
+    margin-right: 28px;
+}
+.jing{
+    color: inherit;
+    &:hover{
+        color: #f8a120;
+    }
+    img{
+        display: inline;
+        vertical-align: middle;
+    }
+}
+.pliceImg{
+    margin-top: 8px;
+    a{
+        float: left;
+        margin-right: 20px;
+        width: 108px;
+        height: 40px;
+        img{
+            width: 108px;
+            height: 40px;
+        }
+    }
+}
